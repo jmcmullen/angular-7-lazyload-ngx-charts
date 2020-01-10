@@ -14,8 +14,7 @@
       [xAxisLabel]="xAxisLabel"
       [yAxisLabel]="yAxisLabel"
       [autoScale]="autoScale"
-      [timeline]="timeline"
-      (select)="onSelect($event)">
+      [timeline]="timeline">
     </ngx-charts-line-chart>
   </div>
 
@@ -35,8 +34,7 @@
       [showYAxisLabel]="showYAxisLabel"
       [xAxisLabel]="xAxisLabel"
       [yAxisLabel]="yAxisLabel"
-      [autoScale]="autoScale"
-      (select)="onSelect($event)">
+      [autoScale]="autoScale">
     </ngx-charts-area-chart>
     </div>
 
@@ -53,7 +51,6 @@
     [explodeSlices]="explodeSlices"
     [labels]="showLabels"
     [doughnut]="doughnut"
-    [gradient]="gradient"
-    (select)="onSelect($event)">
+    [gradient]="gradient">
   </ngx-charts-pie-chart>
 </div>
